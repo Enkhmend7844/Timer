@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: white;
+    background-image: url('1.png'); 
+    background-size: cover;  
+    background-position: center; 
+
+}
+
+.container {
+    text-align: center;
+    background: rgba(78, 24, 24, 0.795);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#timer {
+    font-size: 400px;
+    margin: 20px 0;
+}
+button {
+    font-size: 30px;
+    margin: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 0.9em;
+    color: white;
+    background: rgb(158, 58, 58);
+
+}
+button:hover {
+    transform: translateX(-2px);
+}
+

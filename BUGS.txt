@@ -1,0 +1,46 @@
+Test Case ID: 01
+Title: allows negative numbers
+Precondition: No Precondition, set the timer
+Test Data: negative minutes
+Steps to reproduce: enter the negative numbers, or click the down button until it reaches below 0
+Expected result: timer will show the negative minutes
+Actual result: Allows the negative number option
+Status: pass
+Severity: high
+
+
+Test Case ID: 02
+Title: Timer counts below zero
+Precondition: test case 01 must passed
+Test Data: negative minutes
+Steps to reproduce: enter the negative number, click the start button
+Expected result: timer continues counting down to negative numbers
+Actual result: Counting down below 0 (-1,-2,-3,-4...)
+Status: Pass
+Severity: High
+
+
+Test Case ID: 03
+Title: Timer skips the numbers
+Precondition: timer works, counting down
+Test Data: See the missed numbers
+Steps to reproduce: reset the timer, start the timer, see the counter
+Expected result: randomly skips the numbers (5->3 instead of 5->4)
+Actual result: randomly skips the seconds
+Status: Pass
+Severity: High
+
+
+Test Case ID: 04
+Title: Stop button doesn't work
+Precondition: no precondition, have the stop button
+Test Data: check the button is working or not
+Steps to reproduce: start the timer, click the stop button
+Expected result: timer won't stop
+Actual result: even if we click the stop button timer didn't stop
+Status: Pass
+Severity: High
+
+ID: 05
+e -> è
+Severity: Low
